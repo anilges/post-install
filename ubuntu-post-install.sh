@@ -46,3 +46,5 @@ chmod +x $HOME/post-install/mullvad-update.sh
 $HOME/post-install/logseq-update.sh
 $HOME/post-install/neovim-update.sh
 $HOME/post-install/mullvad-update.sh
+
+echo "done, now restart and have fun"
