@@ -1,5 +1,6 @@
 #!/bin/bash
 
+cd $HOME
 # remove old version
 rm -rf $HOME/neovim
 

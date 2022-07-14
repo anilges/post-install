@@ -20,6 +20,9 @@ rm -rf libndi4_4* obs-ndi_4*
 # install vscodium
 sudo snap install codium --classic
 
+# install onionshare
+sudo snap install onionshare
+
 # create .bash_aliases
 cd $HOME
 touch .bash_aliases
