@@ -43,8 +43,9 @@ git config --global user.email nilges.alex@gmx.de
 chmod +x $HOME/post-install/logseq-update.sh
 chmod +x $HOME/post-install/neovim-update.sh
 chmod +x $HOME/post-install/mullvad-update.sh
-$HOME/post-install/logseq-update.sh
 $HOME/post-install/neovim-update.sh
 $HOME/post-install/mullvad-update.sh
+$HOME/post-install/logseq-update.sh
+
 
 echo "done, now restart and have fun"
