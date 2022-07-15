@@ -1,6 +1,9 @@
 #!/bin/bash
 
 cd $HOME
+# install curl
+sudo apt install curl
+
 # create folder for AppImages if not exists
 mkdir -p $HOME/AppImages
 
