@@ -14,8 +14,9 @@ sudo apt install ubuntu-restricted-extras texlive-full libfuse2 jq ffmpeg obs-st
 # install obs-ndi
 wget https://github.com/Palakis/obs-ndi/releases/download/4.9.1/libndi4_4.5.1-1_amd64.deb
 wget https://github.com/Palakis/obs-ndi/releases/download/4.9.1/obs-ndi_4.9.1-1_amd64.deb
-sudo apt install -y ./libndi4_4* ./obs-ndi_4*
-rm -rf libndi4_4* obs-ndi_4*
+sudo apt install -y ./libndi4_4.5.1-1_amd64.deb
+sudo apt install -y ./obs-ndi_4.9.1-1_amd64.deb
+rm -rf libndi4_4.5.1-1_amd64.deb obs-ndi_4.9.1-1_amd64.deb
 
 # install vscodium
 sudo snap install codium --classic
