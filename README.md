@@ -1,8 +1,9 @@
 # post-install
 
-- sudo apt update && sudo apt install git
+- sudo apt update && sudo apt install git -y
 - git clone https://github.com/anilges/post-install.git
-- chmod +x $HOME/post-install/ubuntu-post-install.sh && bash ubuntu-post-install.sh
+- cd post-install
+- chmod +x ubuntu-post-install.sh && bash ubuntu-post-install.sh
 
 ## after that:
     - firefox privacy guides + extensions (ublock, bitwarden, simplelogin, leechblock:github distracting websites)
