@@ -31,6 +31,7 @@ echo "alias upsys='sudo apt update && sudo apt upgrade -y && sudo snap refresh'"
 echo "alias uplog='$HOME/post-install/logseq-update.sh'" >> .bash_aliases
 echo "alias upnvim='$HOME/post-install/neovim-update.sh'" >> .bash_aliases
 echo "alias upvpn='$HOME/post-install/mullvad-update.sh'" >> .bash_aliases
+echo "alias v='nvim'" >> .bash_aliases
 
 # create ssh key
 yes "" | ssh-keygen -t ed25519 -C "nilges.alex@gmx.de"
