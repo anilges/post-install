@@ -49,5 +49,8 @@ $HOME/post-install/neovim-update.sh
 $HOME/post-install/mullvad-update.sh
 $HOME/post-install/logseq-update.sh
 
+chmod +x $HOME/post-install/zotero-update.sh
+$HOME/post-install/zotero-update.sh
+
 
 echo "done, now restart and have fun"
